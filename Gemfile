@@ -39,6 +39,7 @@ gem 'jbuilder', '~> 2.5'
 # ############################ #
 gem 'bootstrap-generators', git: 'git://github.com/decioferreira/bootstrap-generators.git'
 gem 'devise'
+gem 'enumerize'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

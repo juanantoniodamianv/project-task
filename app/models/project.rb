@@ -1,4 +1,4 @@
 class Project < ApplicationRecord
-  belongs_to :user
+  has_many :user_projects
   belongs_to :client
 end
